@@ -2,20 +2,21 @@ import React from 'react'
 import '../App.css'
 import { Button } from './Button'
 import './HeroSection.css'
+import videos from '../img/video1.mp4'
+
 
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/public/img/videopaint.mp4' autoPlay muted />
-                <h1> Adventure Awaits</h1>
-                <p>What are you waiting for?</p>
+            <video src={videos} autoPlay muted />
+                <h1> Lucy Kocharian</h1>
                 <div className="hero-btns">
                     <Button 
                     className='btns'
                     buttonStyle='btn-outline'
                     buttonSize='btn--large'
                     >
-                        GET STARTED
+                        portfolio
                     </Button>
                 </div>
         </div>
