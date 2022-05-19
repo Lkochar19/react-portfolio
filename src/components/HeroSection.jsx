@@ -6,11 +6,15 @@ import './HeroSection.css'
 function HeroSection() {
     return (
         <div className='hero-container'>
+            <video src='/public/img/videopaint.mp4' autoPlay muted />
                 <h1> Adventure Awaits</h1>
                 <p>What are you waiting for?</p>
                 <div className="hero-btns">
-                    <Button className='btns' buttonStyle='btn-outline'
-                    buttonSize='btn--large'>
+                    <Button 
+                    className='btns'
+                    buttonStyle='btn-outline'
+                    buttonSize='btn--large'
+                    >
                         GET STARTED
                     </Button>
                 </div>
