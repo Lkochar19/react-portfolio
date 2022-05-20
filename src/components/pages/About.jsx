@@ -13,7 +13,7 @@ export default function About() {
         <p>B.A. in Computer Science, NYU '23</p>
         --
         <p>I'm new to software development and excited to learn as much as I can!</p>
-        
+
     
         <p className='bolddis'>Interests:</p>
         <li>Mobile App Development</li>
@@ -25,6 +25,7 @@ export default function About() {
         <li>Fitness and Nutrition</li>
 
         <p className='reslink'><Link to ='/resume'>Resume</Link></p>
+        <Link to={{ pathname: "https://github.com/Lkochar19" }} target="_blank">Github</Link>
     </div>
     </>
     )
