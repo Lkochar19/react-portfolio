@@ -1,0 +1,27 @@
+.about {
+    padding: 20px ;
+    background-color: #fff;
+
+}
+
+h1 {
+    font-weight: lighter;
+    justify-content: center;
+}
+
+h2 {
+
+}
+
+p {
+    padding: 2px;
+}
+
+.bolddis {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.reslink {
+    padding-top: 50px;
+}

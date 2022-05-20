@@ -1,27 +1,31 @@
 import React from 'react'
 import '../../App.css'
 import { Link } from 'react-router-dom';
+import '../About.css'
 
 export default function About() {
     return (
     <>
-        <h1 className='about'>About Me</h1>
-        <h2>hi</h2>
-        <p>my name is LUCY.</p>
+    <div className ='about'>
+        <h1>About Me</h1>
+        <h2>Hi,</h2>
+        <p>my name is Lucy.</p>
         <p>B.A. in Computer Science, NYU '23</p>
-        I'm new to software development and excited to learn as much as I can!
+        --
+        <p>I'm new to software development and excited to learn as much as I can!</p>
+        
     
-        <p>Interests:</p>
+        <p className='bolddis'>Interests:</p>
         <li>Mobile App Development</li>
-        <li>AI</li>
+        <li>AI & Machine Learning</li>
 
-        <p>Outside Interests:</p>
+        <p className='bolddis'>Outside Interests:</p>
         <li>Tattoo Designing</li>
         <li>Hiking</li>
         <li>Fitness and Nutrition</li>
 
-        <Link to ='/resume'>Resume</Link> 
-    
+        <p className='reslink'><Link to ='/resume'>Resume</Link></p>
+    </div>
     </>
     )
 }
