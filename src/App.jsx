@@ -7,6 +7,7 @@ import Cards from './components/Cards'
 import Blackout from './components/pages/Blackout'
 import BHistories from './components/pages/BHistories'
 import About from './components/pages/About'
+import Resume from './components/pages/Resume'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/about' exact element={<About />} />
+        <Route path='/resume' exact element={<Resume />} />
         <Route path='/portfolio' exact element={<Cards />} />
         <Route path='/blackout' exact element={<Blackout />} />
         <Route path='/broken-histories' exact element={<BHistories />} />
