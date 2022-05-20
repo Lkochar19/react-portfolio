@@ -26,7 +26,7 @@ function Cards() {
             />
             <CardItem
               src={imghf}
-              text='Breaking Histories'
+              text='Broken Histories'
               label='AR'
               path='/broken-histories'
             />

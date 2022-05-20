@@ -4,17 +4,24 @@
 
 }
 
+.underheading {
+    font-weight: lighter;
+}
+
 h1 {
     font-weight: lighter;
     justify-content: center;
 }
 
 h2 {
-
+    padding: 10px;
 }
 
+li {
+    padding-left: 10px;
+}
 p {
-    padding: 2px;
+    padding: 10px;
 }
 
 .bolddis {
